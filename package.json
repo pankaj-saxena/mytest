@@ -1,0 +1,26 @@
+{
+  "name": "mytest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/test --reporter spec"
+  },
+  "dependencies": {
+    "apickli": "latest",
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "config": "^3.0.1",
+    "cookie-parser": "~1.4.3",
+    "cucumber": "latest",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "index": "^0.4.0",
+    "jade": "~1.11.0",
+    "mocha": "^6.0.2",
+    "morgan": "~1.9.0",
+    "prettyjson": "latest"
+  }
+}
